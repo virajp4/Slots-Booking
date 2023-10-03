@@ -1,0 +1,6 @@
+.slot {
+    min-width: 190px;
+    border: 2px solid #063275;
+    border-radius: 10px;
+    background-color: rgb(182, 231, 250);
+}

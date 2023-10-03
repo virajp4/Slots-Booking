@@ -1,10 +1,12 @@
 import { useState } from 'react'
 
-import './styles/loginstyles.css'
+import NavBar from './NavBar'
+import './styles/login.css'
 
 export default function Login() {
   return (
     <>
+      <NavBar />
       <div className="main-box">
         <div className="main">
           <div className="login-box">
@@ -23,7 +25,6 @@ export default function Login() {
           </div>
         </div>
       </div>
-      
     </>
   )
 }
